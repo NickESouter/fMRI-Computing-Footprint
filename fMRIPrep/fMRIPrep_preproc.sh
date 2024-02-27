@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #Job ID name sent to HPC cluster.
-#$ -N ns605-fMRIPrep
+#$ -N fMRIPrep
 
 #Number of requested parallel environments.
 #$ -pe openmp 5
@@ -19,19 +19,19 @@
 #$ -jc test.long
 
 #Stores fMRIPrep log files, and indicates that logs should be stored.
-#$ -o '/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/Preprocessing/logs'
+#$ -o '<full path redacted>/fMRIPrep/Preprocessing/logs'
 #$ -e logs
 
 #The overarching fMRIPrep preprocessing directory.
-fMRIPrep_dir=/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/Preprocessing/
+fMRIPrep_dir=<full path redacted>/fMRIPrep/Preprocessing/
 
 #Defines key directories, including (1) input data, (2) working directory, and (3) output directory.
-DATA_DIR=/mnt/lustre/users/psych/ns605/Sustainability/CNP_BIDS
+DATA_DIR=<full path redacted>/Sustainability/CNP_BIDS
 SCRATCH_DIR=$fMRIPrep_dir/scratch
 OUT_DIR=$fMRIPrep_dir/derivatives
 
 #Location of the fMRIPrep license.
-LICENSE=/research/cisc2/shared/fs_license/license.txt  
+LICENSE=<full path redacted>/fs_license/license.txt  
 
 #Changes working directory to the input data directory.
 cd ${DATA_DIR}
@@ -57,7 +57,7 @@ singularity run --cleanenv \
     -B ${OUT_DIR}/:/out \
     -B ${SCRATCH_DIR}:/wd \
     -B ${LICENSE}:/license \
-    /research/cisc2/shared/fmriprep_singularity/fmriprep_22.1.1.simg \
+    <full path redacted>/fmriprep_singularity/fmriprep_22.1.1.simg \
     --participant-label ${SUBJECT} \
     --fs-license-file /license \
     --skip-bids-validation \
@@ -75,7 +75,7 @@ singularity run --cleanenv \
 echo Done
 
 #Defines the ID directory.
-IDdir=/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/Task_IDs
+IDdir=<full path redacted>/fMRIPrep/Task_IDs
 
 #Checks if the ID directory exists; if not, creates it.
 if [ ! -d "${IDdir}/${SUBJECT}" ]; then
