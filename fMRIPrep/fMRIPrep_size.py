@@ -4,8 +4,8 @@ import numpy as np
 import csv
 
 #Points to the input preprocessing and stats directories.
-fmriprep_dir = '/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/Preprocessing/'
-stats_dir = '/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/'
+fmriprep_dir = '<full path redacted>/fMRIPrep/Preprocessing/'
+stats_dir = '<full path redacted>/fMRIPrep/first_level/'
 
 #Defines relevant subfolders that we'll be iterating through.
 derivatives = os.path.join(fmriprep_dir, 'derivatives')
@@ -138,7 +138,7 @@ for subject in os.listdir(stats_dir):
 
 
 #Defines a path to the output file and provides headers.
-output_file = '/research/cisc2/projects/rae_sustainability/Analysis_Project_Output/File_Size/fMRIPrep_size.csv'
+output_file = '<full path redacted>/Analysis_Project_Output/File_Size/fMRIPrep_size.csv'
 headers = ['Subject', 'Preprocessing', 'Statistical Analysis', 'Total']
 
 #Opens the output file and writes out the headers.
