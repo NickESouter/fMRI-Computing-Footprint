@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #Job ID name sent to HPC cluster.
-#$ -N ns605-FEAT
+#$ -N FEAT
 
 #Number of requested parallel environments.
 #$ -pe openmp 5
@@ -19,7 +19,7 @@
 #$ -jc test.short
 
 #Makes sure we are in my home directory, then loads Anaconda (python) module and sets it up.
-cd /its/home/ns605
+cd <full path redacted>
 module load Anaconda3/2022.10
 source ~/conda_setup.sh
 
@@ -28,10 +28,10 @@ module load FSL/6.0.3-foss-2019b-Python-3.7.4
 unset SGE_ROOT
 
 #Changes directory to that containing relevant fsf files.
-cd /mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/fsf_files/Preprocessing
+cd <full path redacted>/fMRIPrep/fsf_files/Preprocessing
 
 #Defines the output directory.
-outdir=/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level
+outdir=<full path redacted>/fMRIPrep/first_level
 
 #Creates an array of subjects to be iterated over, defines their index.
 subjects=($(find . -name "sub-*_preproc.fsf" -exec basename {} \; | sort))
@@ -45,7 +45,7 @@ feat "${subject}"
 subject_id="${subject:0:9}"
 
 #Defines the ID directory.
-IDdir=/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/Task_IDs
+IDdir=<full path redacted>/fMRIPrep/Task_IDs
 
 #Checks if the ID directory exists; if not, creates it.
 if [ ! -d "${IDdir}/${subject_id}" ]; then
