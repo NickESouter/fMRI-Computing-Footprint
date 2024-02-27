@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #Defines an overall path for the fMRIPrep directory.
-fmriprep_path="/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/"
+fmriprep_path="<full path redacted>/fMRIPrep/"
 
 #Tells the script to just go one level deep such that we can iterate over subject subdirectories below.
 subdirs=$(find "${fmriprep_path}Preprocessing/derivatives/" -mindepth 1 -maxdepth 1 -type d -name "sub*" | sort)
