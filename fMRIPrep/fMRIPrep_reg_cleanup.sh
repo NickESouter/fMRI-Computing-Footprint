@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #The FEAT directory for this pipeline is defined.
-feat_dir="/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/"
+feat_dir="<full path redacted>/fMRIPrep/first_level/"
 
 #We need to iterate over the output folders for each subject and make changes to files generated during registration in FEAT.
 #Group-level analysis requires this registration to have been run, but we've already registered in fMRIPrep. I followed the steps detailed
