@@ -7,9 +7,9 @@ import math
 
 #Defines filepaths of interest including (a) input directory containing preprocessed data,
 #(b) the location where FSF files should be saved, and (c) the location of both FSF templates.
-inputdir = '/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/Smoothed/'
-fsfdir = '/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/fsf_files/'
-templates = '/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/fsf_templates/'
+inputdir = '<full path redacted>/fMRIPrep/Smoothed/'
+fsfdir = '<full path redacted>/fMRIPrep/fsf_files/'
+templates = '<full path redacted>/fMRIPrep/fsf_templates/'
 
 #Checks whether the FSF directory exists. It's created if not.
 if not os.path.exists(fsfdir):
@@ -42,7 +42,7 @@ for subject in sorted(os.listdir(inputdir)):
 				outfile.write(line)
 
 	#A subject-specific directory containing EV files.
-	EV_dir = '/mnt/lustre/users/psych/ns605/Analysis/FSL/EVs/{}/'.format(subject)
+	EV_dir = '<full path redacted>/FSL/EVs/{}/'.format(subject)
 
 	#If this participant has an 'erroneous' EV, we'll use the 6 EV template and tell the user. If not,
 	#we'll use the 5 ev template instead. Note that each EV subfolder will include X exprimental EVs plus
