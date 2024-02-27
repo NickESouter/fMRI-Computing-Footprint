@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #Job ID name sent to HPC cluster.
-#$ -N ns605-FEAT
+#$ -N FEAT
 
 #Number of requested parallel environments.
 #$ -pe openmp 5
@@ -19,7 +19,7 @@
 #$ -jc test.short
 
 #Makes sure we are in my home directory, then loads Anaconda (python) module and sets it up.
-cd /its/home/ns605
+cd <full path redacted>
 module load Anaconda3/2022.10
 source ~/conda_setup.sh
 
@@ -33,7 +33,7 @@ declare -A ROIs
 ROIs=( ["Motor"]="1" ["Pre-sma"]="2" ["Auditory"]="2" ["Insula"]="2" )
 
 #Changes working directory to first-level output.
-outdir=/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level
+outdir=<full path redacted>/fMRIPrep/first_level
 cd $outdir
 
 #Creates an array of subjects to be iterated over, defines their index.
@@ -48,7 +48,7 @@ for roi in "${!ROIs[@]}"; do
 	tstat=${ROIs[$roi]}
 			
 	#Runs Featquery on the respective ROI for this subject.
-	featquery 1 ${outdir}/${subject}/ 1 stats/tstat$tstat featquery_$roi /mnt/lustre/users/psych/ns605/Analysis/ROIs/${roi}_ROI.nii.gz
+	featquery 1 ${outdir}/${subject}/ 1 stats/tstat$tstat featquery_$roi <full path redacted>/ROIs/${roi}_ROI.nii.gz
 
 done
 
@@ -56,7 +56,7 @@ done
 subject_id="${subject:0:9}"
 
 #Defines the ID directory.
-IDdir=/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/Task_IDs
+IDdir=<full path redacted>/fMRIPrep/Task_IDs
 
 #Checks if the ID directory exists; if not, creates it.
 if [ ! -d "${IDdir}/${subject_id}" ]; then
