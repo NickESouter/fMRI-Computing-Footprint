@@ -6,8 +6,8 @@ import nibabel as nb
 import numpy as np
 
 #Defines the input and output directories.
-preproc_dir = '/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/Preprocessing/derivatives/'
-outdir = '/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/Confounds/'
+preproc_dir = '<full path redacted>/fMRIPrep/Preprocessing/derivatives/'
+outdir = '<full path redacted>/fMRIPrep/Confounds/'
 
 #Iterates over each subject in the input directory.
 for subject in os.listdir(preproc_dir):
@@ -17,7 +17,7 @@ for subject in os.listdir(preproc_dir):
 		continue
 
 	#If the first-level analysis directory doesn't exist, it's created.
-	first_dir = '/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/{}'.format(subject)
+	first_dir = '<full path redacted>/fMRIPrep/first_level/{}'.format(subject)
 
 	if not os.path.exists(first_dir):
 		os.mkdir(first_dir)
