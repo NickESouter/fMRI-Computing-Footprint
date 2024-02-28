@@ -98,4 +98,50 @@ Contains a 'run' and 'job' script for higher-level analysis in SPM. Takes output
 
 This shell script is used to perform higher-level statistical analysis on data processed in SPM. Uses the scripts described above. Set up to run on our HPC cluster.
 
+## fMRIPrep
 
+### fMRIPrep_preproc.sh
+
+This shell script performs preprocessing on fMRIPrep on raw data, for each subject. fMRIPrep is run in a Singularity container. Set up to run on our HPC cluster.
+
+### fMRIPrep_Confound_pull.py
+
+
+
+### fMRIPrep_Smoothing.sh
+
+
+
+### fsf_templates
+
+
+
+### fMRIPrep_fsf_generator.py
+
+
+
+### fMRIPrep_preproc_post.sh
+
+
+
+### fMRIPrep_reg_cleanup.sh
+
+
+
+### fMRIPrep_stats.sh
+
+
+
+### fMRIPrep_size.py
+
+
+
+### fMRIPrep_Featquery.sh
+
+
+
+### Group_fsf
+
+
+
+### fMRIPrep_group.sh
