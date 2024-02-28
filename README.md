@@ -14,7 +14,7 @@ This shell script performs brain extraction on the raw fMRI data for each subjec
 
 ### fsf_templates
 
-This folder contains fsf templates, which will be needed to create preprocessing and statistical analysis files for data processed in FSL. There is one for prepreprocessing, and two for statistical analysis (one is used per subject, depending on if they have an 'erroneous' EV timing file or not.
+This folder contains fsf templates, which will be needed to create preprocessing and statistical analysis files for data processed in FSL. There is one for prepreprocessing, and two for statistical analysis (one is used per subject, depending on if they have an 'erroneous' EV timing file or not).
 
 ### fsf_generator.py
 
@@ -106,42 +106,44 @@ This shell script performs preprocessing on fMRIPrep on raw data, for each subje
 
 ### fMRIPrep_Confound_pull.py
 
-
+fMRIPrep preprocessing will have generated a file containing motion confounds. For first-level analysis, we'll want a file containing just 6 of these. This Python script generates a new file for each subject containing these specific values.
 
 ### fMRIPrep_Smoothing.sh
 
-
+fMRIPrep does not contain a smoothing function. As such, we need to run smoothing outside of fMRIPrep. For this, we use the 3dBlurInMask function from AFNI. We also perform estimates of mean pre- and post-smoothing smoothness using AFNI 3dFWHMx (although post-smoothing estimates are not used in analysis). Ideally, smoothing would be carbon tracked such that it could be added to our existing carbon estimate for preprocessing fMRIPrep data. However, AFNI is not currently set up to run on our HPC cluster, meaning this was not possible.
 
 ### fsf_templates
 
-
+This folder contains templates for fsf files for each subject for use in FSL FEAT. For each subject we'll need a preproc_post file (described below) and an analysis file. There are two version of the first-level analysis file, dependent on whether the subject has an 'erroneous' EV present or not.
 
 ### fMRIPrep_fsf_generator.py
 
-
+This Python scripts generates the two fsf files needed for each subject, using the template files described above.
 
 ### fMRIPrep_preproc_post.sh
 
-
+To facilitate group-level analysis of our fMRIPrep data, we effectively need to re-run registration in FSL FEAT. This is because group-analysis expects a certain file structure and naming convention that would otherwise not be present. This is set up to run on our HPC cluster. We carbon track this process, but given that it's not actually a part of fMRIPrep preprocessing, we do not include it in the overall estimate for preprocessing emissions.
 
 ### fMRIPrep_reg_cleanup.sh
 
-
+To make sure our original registration files are used rather than the ones generated in the step above, we need to go into our first-level folder and cleanup new registration files and matrices. This effectively means that only registrations from fMRIPrep will be used going forward.
 
 ### fMRIPrep_stats.sh
 
-
+This shell script initiates first-level statistical analysis in FSL FEAT, using the fsf files described above. Set up to run on our high-performance cluster.
 
 ### fMRIPrep_size.py
 
-
+This Python script measures the total size of files generated throughout preprocessing in fMRIPrep and subseqent analysis in FSL FEAT. This is done seperately for files derived from preprocessing and statistical analysis.
 
 ### fMRIPrep_Featquery.sh
 
-
+This script script initates FSL Featquery reigon of interest (ROI) analysis on data preprocessed in fMRIPrep, following first-level analysis. Performed for each subject for each of our 4 ROIs. Set up to run on our HPC cluster.
 
 ### Group_fsf
 
-
+This folder contains a single FSF file used to run group-level analysis in FSL FEAT. We only need one of these files, so the process was not automated as for first-level analysis.
 
 ### fMRIPrep_group.sh
+
+This shell script performs group-level analysis for data preprocessed in fMRIPrep and already subjected to first-level analysis in FSL FEAT. Calls the group fsf file detailed above. Set up to run on our HPC cluster.
