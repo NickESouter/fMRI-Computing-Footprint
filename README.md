@@ -1,6 +1,6 @@
 # fMRI-Computing-Footprint
 
-The scripts included in this repository were used to process and analyse fMRI data for the paper '*The carbon footprint of fMRI data preprocessing and analysis*'. This project required processing the same [existing datatset][1] in three different packages; FSL, SPM, and fMRIPrep. It was important for all to be run on the same high-performance computing (HPC) architecture in a manner that would allow for carbon tracking through the use of HPC logs. Most scripts are split by package, but sometowards the end of the process are used to aggregate data regardless of package. Following implementation of the steps detailed here, data and code used to faciliate statistical analysis reported in our paper are hosted [on the Open Science Framework (OSF)][2]. 
+The scripts included in this repository were used to process and analyse fMRI data for the paper '*The carbon footprint of fMRI data preprocessing and analysis*'. This project required processing the same [existing datatset][1] in three different packages; FSL, SPM, and fMRIPrep. It was important for all to be run on the same high-performance computing (HPC) architecture in a manner that would allow for carbon tracking through the use of HPC logs. Most scripts are split by package, but sometowards the end of the process are used to aggregate data regardless of package. Following implementation of the steps detailed here, data and code used to faciliate statistical analysis reported in our paper are hosted [on the Open Science Framework (OSF)][2]. Unthresholded group-level t-statistic maps generated for each pacakge during higher-level analysis are available [on Neurovault][3].
 
 We first discuss scripts provided for each individual package, respectively contained in the folders 'FSL', 'SPM', and 'fMRIPrep'. Scripts and files are decribed in the order in which they were implemented on the raw data. Finally, scripts contained in the 'Extract' folder are used extract dependent variables across packages.
 
@@ -182,3 +182,4 @@ This Python script extracts the mean t-statistics in each ROI for each subject f
 
 [1]: https://openneuro.org/datasets/ds000030/versions/1.0.0
 [2]: https://osf.io/cdq6y/
+[3]: https://neurovault.org/collections/QRJOSICN/
