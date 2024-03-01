@@ -1,6 +1,6 @@
 # fMRI-Computing-Footprint
 
-The scripts included in this repository were used to process and analyse fMRI data for the paper 'The carbon footprint of fMRI data preprocessing and analysis'. This proejct required processing the same existing datatset (LINK) in three different packages; FSL, SPM, and fMRIPrep. It was important for all to be run on the same high-performance computing (HPC) architecture in a manner that would allow for carbon tracking through the use of HPC logs. Most scripts are split by package, but sometowards the end of the process are used to aggregate data regardless of package. Following implementation of the steps detailed here, data and code used to faciliate statistical analysis reported in our paper are hosted on the Open Science Framework (OSF; https://osf.io/cdq6y/). 
+The scripts included in this repository were used to process and analyse fMRI data for the paper '*The carbon footprint of fMRI data preprocessing and analysis*'. This project required processing the same [existing datatset][1] in three different packages; FSL, SPM, and fMRIPrep. It was important for all to be run on the same high-performance computing (HPC) architecture in a manner that would allow for carbon tracking through the use of HPC logs. Most scripts are split by package, but sometowards the end of the process are used to aggregate data regardless of package. Following implementation of the steps detailed here, data and code used to faciliate statistical analysis reported in our paper are hosted on the Open Science Framework (OSF; https://osf.io/cdq6y/). 
 
 We first discuss scripts provided for each individual package. Scripts and files are decribed in the order in which they were implemented on the raw data.
 
@@ -147,3 +147,6 @@ This folder contains a single FSF file used to run group-level analysis in FSL F
 ### fMRIPrep_group.sh
 
 This shell script performs group-level analysis for data preprocessed in fMRIPrep and already subjected to first-level analysis in FSL FEAT. Calls the group fsf file detailed above. Set up to run on our HPC cluster.
+
+
+[1]: https://openneuro.org/datasets/ds000030/versions/1.0.0
