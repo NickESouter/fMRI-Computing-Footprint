@@ -4,7 +4,7 @@ The scripts included in this repository were used to process and analyse fMRI da
 
 We first discuss scripts provided for each individual package, respectively contained in the folders 'FSL', 'SPM', and 'fMRIPrep'. Scripts and files are decribed in the order in which they were implemented on the raw data. Finally, scripts contained in the 'Extract' folder are used extract dependent variables across packages.
 
-Scripts that are setup to run on our HPC cluster (specified below) are shells scripts including flags passed to the sun grid engine (SGE) system. They each end by saving out the job and task ID associated with a given job, to facilitate carbon tracking more easily.
+Scripts that are setup to run on the [University of Sussex HPC cluster][4] (specified below) are shells scripts including flags passed to the sun grid engine (SGE) system. They each end by saving out the job and task ID associated with a given job, to facilitate carbon tracking more easily.
 
 ## FSL
 
@@ -183,3 +183,4 @@ This Python script extracts the mean t-statistics in each ROI for each subject f
 [1]: https://openneuro.org/datasets/ds000030/versions/1.0.0
 [2]: https://osf.io/cdq6y/
 [3]: https://neurovault.org/collections/QRJOSICN/
+[4]: https://docs.hpc.sussex.ac.uk/apollo2/index.html
