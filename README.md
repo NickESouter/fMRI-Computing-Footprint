@@ -1,10 +1,10 @@
 # fMRI-Computing-Footprint
 
-The scripts included in this repository were used to process and analyse fMRI data for the paper '*The carbon footprint of fMRI data preprocessing and analysis*'. This project required processing the same [existing datatset][1] in three different packages; FSL, SPM, and fMRIPrep. It was important for all to be run on the same high-performance computing (HPC) architecture in a manner that would allow for carbon tracking through the use of HPC logs. Most scripts are split by package, but sometowards the end of the process are used to aggregate data regardless of package. Following implementation of the steps detailed here, data and code used to faciliate statistical analysis reported in our paper are hosted on the Open Science Framework (OSF; https://osf.io/cdq6y/). 
+The scripts included in this repository were used to process and analyse fMRI data for the paper '*The carbon footprint of fMRI data preprocessing and analysis*'. This project required processing the same [existing datatset][1] in three different packages; FSL, SPM, and fMRIPrep. It was important for all to be run on the same high-performance computing (HPC) architecture in a manner that would allow for carbon tracking through the use of HPC logs. Most scripts are split by package, but sometowards the end of the process are used to aggregate data regardless of package. Following implementation of the steps detailed here, data and code used to faciliate statistical analysis reported in our paper are hosted [on the Open Science Framework (OSF)][2]. 
 
-We first discuss scripts provided for each individual package. Scripts and files are decribed in the order in which they were implemented on the raw data.
+We first discuss scripts provided for each individual package, respectively contained in the folders 'FSL', 'SPM', and 'fMRIPrep'. Scripts and files are decribed in the order in which they were implemented on the raw data. Finally, scripts contained in the 'Extract' folder are used extract dependent variables across packages.
 
-Scripts that are setup to run on our HPC cluster (specified below) are shells scripts includign falgs passed to the sun grid engine (SGE system). They each end by saving out the job and task ID associated with a given job, to facilitate carbon tracking more easily.
+Scripts that are setup to run on our HPC cluster (specified below) are shells scripts including flags passed to the sun grid engine (SGE) system. They each end by saving out the job and task ID associated with a given job, to facilitate carbon tracking more easily.
 
 ## FSL
 
@@ -148,5 +148,37 @@ This folder contains a single FSF file used to run group-level analysis in FSL F
 
 This shell script performs group-level analysis for data preprocessed in fMRIPrep and already subjected to first-level analysis in FSL FEAT. Calls the group fsf file detailed above. Set up to run on our HPC cluster.
 
+## Extract
+
+### Task_ID_Pull.py
+
+This Python script extracts all SGE task IDs for relevant elements of data processing in each package. The 'package' variable at the top of this script should be appropriately updated to be either 'FSL', 'SPM', or 'fMRIPrep'. When excuting elements of preprocessing and statistical analysis for each package (see above) jobs and task IDs were extracted and placed in a folder. This way, for each subject for each stage of each package this script can pull out the relevant IDs and store them in a single CSV which is then acessed during Carbon_extract.py (below).
+
+### Calc_carbon.py
+
+This Python script is used to estimate carbon emissions resulting from computing, and is set up to run on the SGE system, with the following usage:
+
+qacct -j JOB ID | python3 Calc_carbon.py
+
+For example:
+
+qacct -j 4043726 | python3 Calc_carbon.py
+
+This must be done manually for each job. If, for example, job 4043726 corresponded to preprocessing in SPM for all 257 subjects, this code would grab relevant computing metrics (including wallclock, CPU time, max memory usage) for each subject (task), which would then be saved in a job-specific dictionary in a Job_JSONs folder, in the current working directory. 
+
+This script was used for computing at the University of Sussex in early 2024. If using in another context, users will need to update global variables at teh top of the script, including g_per_kWh (this is average carbon intensity, which will vary by country, region, and year), and pue (power use effectiveness, which will be specific to to the computing architecture in use). See the paper for a full description of the methodology used to estimate carbon emissions.
+
+### Carbon_extract.py
+
+This Python script makes use of collated task IDs and carbon tracking metrics that have been extracted through the two steps above, for a given package. The 'package' variable at the top of this script should be appropriately updated to be either 'FSL', 'SPM', or 'fMRIPrep'. Specifically, it finds the task ID of each relevant stage of each package, then looks in the specified Jobs_JSONs folder to find metrics including duration, energy usage, and carbon emissions. This is paired with the relevant subject and processing stage which is placed in a file specific to a given stage for a given package.
+
+### Smoothing_extract.py
+
+This Python script is used to extract mean data smoothness metrics for each subject for a given package. The 'package' variable at the top of this script should be appropriately updated to be either 'FSL', 'SPM', or 'fMRIPrep'. This script accesses each subject-specific smoothness file. It then writes an output file for mean smoothness in the X, Y, and Z dimension for both pre- and post-smoothed data. An overall average for each stage is also provided. Before doing so, any outliers (+/- 3 standard deviations from the mean) for a given dimension for a given stage (e.g., X dimension for post-smoothed) are removed. Note that for FSL, a measure of pre-smoothed smoothness is not avaiable as the necessary interstitial file is not provided. Pre-smoothed smoothness is not analysed or discussed for any package in the paper. 
+
+### Featquery_extract.py
+
+This Python script extracts the mean t-statistics in each ROI for each subject for a given package. The 'package' variable at the top of this script should be appropriately updated to be either 'FSL', 'SPM', or 'fMRIPrep'. Specifically, this script finds Featquery reports generated during the above package-specific scripts, and pulls out the relevant values. All are placed into a single file corresponding to a given package.
 
 [1]: https://openneuro.org/datasets/ds000030/versions/1.0.0
+[2]: https://osf.io/cdq6y/
