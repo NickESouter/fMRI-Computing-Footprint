@@ -13,7 +13,7 @@
 #$ -l 'h=!node001&!node072&!node018&!node019&!node041&!node063&!node065&!node066&!node067&!node068&!node069&!node070&!node071&!node073&!node074&!node075&!node076&!node077&!node078&!node079&!node080&!node081'
 
 #This sets SGE_TASK_ID!, the number of subjects sent for preprocessing in this job (each is a seperate task).
-#$ -t 1-257
+#$ -t 1-248
 
 #Sets the job class for HPC cluster.
 #$ -jc test.short
