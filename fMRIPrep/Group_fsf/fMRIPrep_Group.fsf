@@ -30,7 +30,7 @@ set fmri(featwatcher_yn) 1
 set fmri(sscleanup_yn) 0
 
 # Output directory
-set fmri(outputdir) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/Higher_level/"
+set fmri(outputdir) "<full path redacted>/fMRIPrep/Higher_level/"
 
 # TR(s)
 set fmri(tr) 3
@@ -275,748 +275,748 @@ set fmri(copeinput.1) 1
 set fmri(copeinput.2) 1
 
 # 4D AVW data or FEAT directory (1)
-set feat_files(1) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-10159.feat"
+set feat_files(1) "<full path redacted>/fMRIPrep/first_level/sub-10159.feat"
 
 # 4D AVW data or FEAT directory (2)
-set feat_files(2) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-10171.feat"
+set feat_files(2) "<full path redacted>/fMRIPrep/first_level/sub-10171.feat"
 
 # 4D AVW data or FEAT directory (3)
-set feat_files(3) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-10189.feat"
+set feat_files(3) "<full path redacted>/fMRIPrep/first_level/sub-10189.feat"
 
 # 4D AVW data or FEAT directory (4)
-set feat_files(4) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-10206.feat"
+set feat_files(4) "<full path redacted>/fMRIPrep/first_level/sub-10206.feat"
 
 # 4D AVW data or FEAT directory (5)
-set feat_files(5) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-10217.feat"
+set feat_files(5) "<full path redacted>/fMRIPrep/first_level/sub-10217.feat"
 
 # 4D AVW data or FEAT directory (6)
-set feat_files(6) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-10225.feat"
+set feat_files(6) "<full path redacted>/fMRIPrep/first_level/sub-10225.feat"
 
 # 4D AVW data or FEAT directory (7)
-set feat_files(7) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-10227.feat"
+set feat_files(7) "<full path redacted>/fMRIPrep/first_level/sub-10227.feat"
 
 # 4D AVW data or FEAT directory (8)
-set feat_files(8) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-10228.feat"
+set feat_files(8) "<full path redacted>/fMRIPrep/first_level/sub-10228.feat"
 
 # 4D AVW data or FEAT directory (9)
-set feat_files(9) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-10235.feat"
+set feat_files(9) "<full path redacted>/fMRIPrep/first_level/sub-10235.feat"
 
 # 4D AVW data or FEAT directory (10)
-set feat_files(10) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-10249.feat"
+set feat_files(10) "<full path redacted>/fMRIPrep/first_level/sub-10249.feat"
 
 # 4D AVW data or FEAT directory (11)
-set feat_files(11) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-10271.feat"
+set feat_files(11) "<full path redacted>/fMRIPrep/first_level/sub-10271.feat"
 
 # 4D AVW data or FEAT directory (12)
-set feat_files(12) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-10273.feat"
+set feat_files(12) "<full path redacted>/fMRIPrep/first_level/sub-10273.feat"
 
 # 4D AVW data or FEAT directory (13)
-set feat_files(13) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-10274.feat"
+set feat_files(13) "<full path redacted>/fMRIPrep/first_level/sub-10274.feat"
 
 # 4D AVW data or FEAT directory (14)
-set feat_files(14) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-10280.feat"
+set feat_files(14) "<full path redacted>/fMRIPrep/first_level/sub-10280.feat"
 
 # 4D AVW data or FEAT directory (15)
-set feat_files(15) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-10290.feat"
+set feat_files(15) "<full path redacted>/fMRIPrep/first_level/sub-10290.feat"
 
 # 4D AVW data or FEAT directory (16)
-set feat_files(16) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-10292.feat"
+set feat_files(16) "<full path redacted>/fMRIPrep/first_level/sub-10292.feat"
 
 # 4D AVW data or FEAT directory (17)
-set feat_files(17) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-10304.feat"
+set feat_files(17) "<full path redacted>/fMRIPrep/first_level/sub-10304.feat"
 
 # 4D AVW data or FEAT directory (18)
-set feat_files(18) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-10316.feat"
+set feat_files(18) "<full path redacted>/fMRIPrep/first_level/sub-10316.feat"
 
 # 4D AVW data or FEAT directory (19)
-set feat_files(19) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-10321.feat"
+set feat_files(19) "<full path redacted>/fMRIPrep/first_level/sub-10321.feat"
 
 # 4D AVW data or FEAT directory (20)
-set feat_files(20) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-10325.feat"
+set feat_files(20) "<full path redacted>/fMRIPrep/first_level/sub-10325.feat"
 
 # 4D AVW data or FEAT directory (21)
-set feat_files(21) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-10329.feat"
+set feat_files(21) "<full path redacted>/fMRIPrep/first_level/sub-10329.feat"
 
 # 4D AVW data or FEAT directory (22)
-set feat_files(22) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-10339.feat"
+set feat_files(22) "<full path redacted>/fMRIPrep/first_level/sub-10339.feat"
 
 # 4D AVW data or FEAT directory (23)
-set feat_files(23) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-10340.feat"
+set feat_files(23) "<full path redacted>/fMRIPrep/first_level/sub-10340.feat"
 
 # 4D AVW data or FEAT directory (24)
-set feat_files(24) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-10345.feat"
+set feat_files(24) "<full path redacted>/fMRIPrep/first_level/sub-10345.feat"
 
 # 4D AVW data or FEAT directory (25)
-set feat_files(25) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-10347.feat"
+set feat_files(25) "<full path redacted>/fMRIPrep/first_level/sub-10347.feat"
 
 # 4D AVW data or FEAT directory (26)
-set feat_files(26) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-10356.feat"
+set feat_files(26) "<full path redacted>/fMRIPrep/first_level/sub-10356.feat"
 
 # 4D AVW data or FEAT directory (27)
-set feat_files(27) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-10361.feat"
+set feat_files(27) "<full path redacted>/fMRIPrep/first_level/sub-10361.feat"
 
 # 4D AVW data or FEAT directory (28)
-set feat_files(28) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-10365.feat"
+set feat_files(28) "<full path redacted>/fMRIPrep/first_level/sub-10365.feat"
 
 # 4D AVW data or FEAT directory (29)
-set feat_files(29) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-10376.feat"
+set feat_files(29) "<full path redacted>/fMRIPrep/first_level/sub-10376.feat"
 
 # 4D AVW data or FEAT directory (30)
-set feat_files(30) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-10377.feat"
+set feat_files(30) "<full path redacted>/fMRIPrep/first_level/sub-10377.feat"
 
 # 4D AVW data or FEAT directory (31)
-set feat_files(31) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-10388.feat"
+set feat_files(31) "<full path redacted>/fMRIPrep/first_level/sub-10388.feat"
 
 # 4D AVW data or FEAT directory (32)
-set feat_files(32) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-10438.feat"
+set feat_files(32) "<full path redacted>/fMRIPrep/first_level/sub-10438.feat"
 
 # 4D AVW data or FEAT directory (33)
-set feat_files(33) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-10440.feat"
+set feat_files(33) "<full path redacted>/fMRIPrep/first_level/sub-10440.feat"
 
 # 4D AVW data or FEAT directory (34)
-set feat_files(34) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-10448.feat"
+set feat_files(34) "<full path redacted>/fMRIPrep/first_level/sub-10448.feat"
 
 # 4D AVW data or FEAT directory (35)
-set feat_files(35) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-10455.feat"
+set feat_files(35) "<full path redacted>/fMRIPrep/first_level/sub-10455.feat"
 
 # 4D AVW data or FEAT directory (36)
-set feat_files(36) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-10460.feat"
+set feat_files(36) "<full path redacted>/fMRIPrep/first_level/sub-10460.feat"
 
 # 4D AVW data or FEAT directory (37)
-set feat_files(37) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-10471.feat"
+set feat_files(37) "<full path redacted>/fMRIPrep/first_level/sub-10471.feat"
 
 # 4D AVW data or FEAT directory (38)
-set feat_files(38) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-10478.feat"
+set feat_files(38) "<full path redacted>/fMRIPrep/first_level/sub-10478.feat"
 
 # 4D AVW data or FEAT directory (39)
-set feat_files(39) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-10487.feat"
+set feat_files(39) "<full path redacted>/fMRIPrep/first_level/sub-10487.feat"
 
 # 4D AVW data or FEAT directory (40)
-set feat_files(40) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-10492.feat"
+set feat_files(40) "<full path redacted>/fMRIPrep/first_level/sub-10492.feat"
 
 # 4D AVW data or FEAT directory (41)
-set feat_files(41) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-10506.feat"
+set feat_files(41) "<full path redacted>/fMRIPrep/first_level/sub-10506.feat"
 
 # 4D AVW data or FEAT directory (42)
-set feat_files(42) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-10517.feat"
+set feat_files(42) "<full path redacted>/fMRIPrep/first_level/sub-10517.feat"
 
 # 4D AVW data or FEAT directory (43)
-set feat_files(43) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-10523.feat"
+set feat_files(43) "<full path redacted>/fMRIPrep/first_level/sub-10523.feat"
 
 # 4D AVW data or FEAT directory (44)
-set feat_files(44) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-10524.feat"
+set feat_files(44) "<full path redacted>/fMRIPrep/first_level/sub-10524.feat"
 
 # 4D AVW data or FEAT directory (45)
-set feat_files(45) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-10525.feat"
+set feat_files(45) "<full path redacted>/fMRIPrep/first_level/sub-10525.feat"
 
 # 4D AVW data or FEAT directory (46)
-set feat_files(46) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-10530.feat"
+set feat_files(46) "<full path redacted>/fMRIPrep/first_level/sub-10530.feat"
 
 # 4D AVW data or FEAT directory (47)
-set feat_files(47) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-10557.feat"
+set feat_files(47) "<full path redacted>/fMRIPrep/first_level/sub-10557.feat"
 
 # 4D AVW data or FEAT directory (48)
-set feat_files(48) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-10565.feat"
+set feat_files(48) "<full path redacted>/fMRIPrep/first_level/sub-10565.feat"
 
 # 4D AVW data or FEAT directory (49)
-set feat_files(49) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-10570.feat"
+set feat_files(49) "<full path redacted>/fMRIPrep/first_level/sub-10570.feat"
 
 # 4D AVW data or FEAT directory (50)
-set feat_files(50) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-10575.feat"
+set feat_files(50) "<full path redacted>/fMRIPrep/first_level/sub-10575.feat"
 
 # 4D AVW data or FEAT directory (51)
-set feat_files(51) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-10624.feat"
+set feat_files(51) "<full path redacted>/fMRIPrep/first_level/sub-10624.feat"
 
 # 4D AVW data or FEAT directory (52)
-set feat_files(52) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-10629.feat"
+set feat_files(52) "<full path redacted>/fMRIPrep/first_level/sub-10629.feat"
 
 # 4D AVW data or FEAT directory (53)
-set feat_files(53) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-10631.feat"
+set feat_files(53) "<full path redacted>/fMRIPrep/first_level/sub-10631.feat"
 
 # 4D AVW data or FEAT directory (54)
-set feat_files(54) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-10638.feat"
+set feat_files(54) "<full path redacted>/fMRIPrep/first_level/sub-10638.feat"
 
 # 4D AVW data or FEAT directory (55)
-set feat_files(55) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-10668.feat"
+set feat_files(55) "<full path redacted>/fMRIPrep/first_level/sub-10668.feat"
 
 # 4D AVW data or FEAT directory (56)
-set feat_files(56) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-10672.feat"
+set feat_files(56) "<full path redacted>/fMRIPrep/first_level/sub-10672.feat"
 
 # 4D AVW data or FEAT directory (57)
-set feat_files(57) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-10674.feat"
+set feat_files(57) "<full path redacted>/fMRIPrep/first_level/sub-10674.feat"
 
 # 4D AVW data or FEAT directory (58)
-set feat_files(58) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-10678.feat"
+set feat_files(58) "<full path redacted>/fMRIPrep/first_level/sub-10678.feat"
 
 # 4D AVW data or FEAT directory (59)
-set feat_files(59) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-10680.feat"
+set feat_files(59) "<full path redacted>/fMRIPrep/first_level/sub-10680.feat"
 
 # 4D AVW data or FEAT directory (60)
-set feat_files(60) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-10686.feat"
+set feat_files(60) "<full path redacted>/fMRIPrep/first_level/sub-10686.feat"
 
 # 4D AVW data or FEAT directory (61)
-set feat_files(61) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-10692.feat"
+set feat_files(61) "<full path redacted>/fMRIPrep/first_level/sub-10692.feat"
 
 # 4D AVW data or FEAT directory (62)
-set feat_files(62) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-10697.feat"
+set feat_files(62) "<full path redacted>/fMRIPrep/first_level/sub-10697.feat"
 
 # 4D AVW data or FEAT directory (63)
-set feat_files(63) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-10704.feat"
+set feat_files(63) "<full path redacted>/fMRIPrep/first_level/sub-10704.feat"
 
 # 4D AVW data or FEAT directory (64)
-set feat_files(64) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-10707.feat"
+set feat_files(64) "<full path redacted>/fMRIPrep/first_level/sub-10707.feat"
 
 # 4D AVW data or FEAT directory (65)
-set feat_files(65) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-10708.feat"
+set feat_files(65) "<full path redacted>/fMRIPrep/first_level/sub-10708.feat"
 
 # 4D AVW data or FEAT directory (66)
-set feat_files(66) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-10719.feat"
+set feat_files(66) "<full path redacted>/fMRIPrep/first_level/sub-10719.feat"
 
 # 4D AVW data or FEAT directory (67)
-set feat_files(67) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-10724.feat"
+set feat_files(67) "<full path redacted>/fMRIPrep/first_level/sub-10724.feat"
 
 # 4D AVW data or FEAT directory (68)
-set feat_files(68) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-10746.feat"
+set feat_files(68) "<full path redacted>/fMRIPrep/first_level/sub-10746.feat"
 
 # 4D AVW data or FEAT directory (69)
-set feat_files(69) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-10762.feat"
+set feat_files(69) "<full path redacted>/fMRIPrep/first_level/sub-10762.feat"
 
 # 4D AVW data or FEAT directory (70)
-set feat_files(70) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-10779.feat"
+set feat_files(70) "<full path redacted>/fMRIPrep/first_level/sub-10779.feat"
 
 # 4D AVW data or FEAT directory (71)
-set feat_files(71) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-10785.feat"
+set feat_files(71) "<full path redacted>/fMRIPrep/first_level/sub-10785.feat"
 
 # 4D AVW data or FEAT directory (72)
-set feat_files(72) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-10788.feat"
+set feat_files(72) "<full path redacted>/fMRIPrep/first_level/sub-10788.feat"
 
 # 4D AVW data or FEAT directory (73)
-set feat_files(73) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-10844.feat"
+set feat_files(73) "<full path redacted>/fMRIPrep/first_level/sub-10844.feat"
 
 # 4D AVW data or FEAT directory (74)
-set feat_files(74) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-10855.feat"
+set feat_files(74) "<full path redacted>/fMRIPrep/first_level/sub-10855.feat"
 
 # 4D AVW data or FEAT directory (75)
-set feat_files(75) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-10871.feat"
+set feat_files(75) "<full path redacted>/fMRIPrep/first_level/sub-10871.feat"
 
 # 4D AVW data or FEAT directory (76)
-set feat_files(76) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-10877.feat"
+set feat_files(76) "<full path redacted>/fMRIPrep/first_level/sub-10877.feat"
 
 # 4D AVW data or FEAT directory (77)
-set feat_files(77) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-10882.feat"
+set feat_files(77) "<full path redacted>/fMRIPrep/first_level/sub-10882.feat"
 
 # 4D AVW data or FEAT directory (78)
-set feat_files(78) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-10891.feat"
+set feat_files(78) "<full path redacted>/fMRIPrep/first_level/sub-10891.feat"
 
 # 4D AVW data or FEAT directory (79)
-set feat_files(79) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-10893.feat"
+set feat_files(79) "<full path redacted>/fMRIPrep/first_level/sub-10893.feat"
 
 # 4D AVW data or FEAT directory (80)
-set feat_files(80) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-10912.feat"
+set feat_files(80) "<full path redacted>/fMRIPrep/first_level/sub-10912.feat"
 
 # 4D AVW data or FEAT directory (81)
-set feat_files(81) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-10934.feat"
+set feat_files(81) "<full path redacted>/fMRIPrep/first_level/sub-10934.feat"
 
 # 4D AVW data or FEAT directory (82)
-set feat_files(82) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-10940.feat"
+set feat_files(82) "<full path redacted>/fMRIPrep/first_level/sub-10940.feat"
 
 # 4D AVW data or FEAT directory (83)
-set feat_files(83) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-10949.feat"
+set feat_files(83) "<full path redacted>/fMRIPrep/first_level/sub-10949.feat"
 
 # 4D AVW data or FEAT directory (84)
-set feat_files(84) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-10958.feat"
+set feat_files(84) "<full path redacted>/fMRIPrep/first_level/sub-10958.feat"
 
 # 4D AVW data or FEAT directory (85)
-set feat_files(85) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-10963.feat"
+set feat_files(85) "<full path redacted>/fMRIPrep/first_level/sub-10963.feat"
 
 # 4D AVW data or FEAT directory (86)
-set feat_files(86) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-10968.feat"
+set feat_files(86) "<full path redacted>/fMRIPrep/first_level/sub-10968.feat"
 
 # 4D AVW data or FEAT directory (87)
-set feat_files(87) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-10975.feat"
+set feat_files(87) "<full path redacted>/fMRIPrep/first_level/sub-10975.feat"
 
 # 4D AVW data or FEAT directory (88)
-set feat_files(88) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-10977.feat"
+set feat_files(88) "<full path redacted>/fMRIPrep/first_level/sub-10977.feat"
 
 # 4D AVW data or FEAT directory (89)
-set feat_files(89) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-10987.feat"
+set feat_files(89) "<full path redacted>/fMRIPrep/first_level/sub-10987.feat"
 
 # 4D AVW data or FEAT directory (90)
-set feat_files(90) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-10998.feat"
+set feat_files(90) "<full path redacted>/fMRIPrep/first_level/sub-10998.feat"
 
 # 4D AVW data or FEAT directory (91)
-set feat_files(91) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-11019.feat"
+set feat_files(91) "<full path redacted>/fMRIPrep/first_level/sub-11019.feat"
 
 # 4D AVW data or FEAT directory (92)
-set feat_files(92) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-11030.feat"
+set feat_files(92) "<full path redacted>/fMRIPrep/first_level/sub-11030.feat"
 
 # 4D AVW data or FEAT directory (93)
-set feat_files(93) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-11044.feat"
+set feat_files(93) "<full path redacted>/fMRIPrep/first_level/sub-11044.feat"
 
 # 4D AVW data or FEAT directory (94)
-set feat_files(94) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-11050.feat"
+set feat_files(94) "<full path redacted>/fMRIPrep/first_level/sub-11050.feat"
 
 # 4D AVW data or FEAT directory (95)
-set feat_files(95) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-11052.feat"
+set feat_files(95) "<full path redacted>/fMRIPrep/first_level/sub-11052.feat"
 
 # 4D AVW data or FEAT directory (96)
-set feat_files(96) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-11059.feat"
+set feat_files(96) "<full path redacted>/fMRIPrep/first_level/sub-11059.feat"
 
 # 4D AVW data or FEAT directory (97)
-set feat_files(97) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-11061.feat"
+set feat_files(97) "<full path redacted>/fMRIPrep/first_level/sub-11061.feat"
 
 # 4D AVW data or FEAT directory (98)
-set feat_files(98) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-11062.feat"
+set feat_files(98) "<full path redacted>/fMRIPrep/first_level/sub-11062.feat"
 
 # 4D AVW data or FEAT directory (99)
-set feat_files(99) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-11066.feat"
+set feat_files(99) "<full path redacted>/fMRIPrep/first_level/sub-11066.feat"
 
 # 4D AVW data or FEAT directory (100)
-set feat_files(100) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-11067.feat"
+set feat_files(100) "<full path redacted>/fMRIPrep/first_level/sub-11067.feat"
 
 # 4D AVW data or FEAT directory (101)
-set feat_files(101) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-11068.feat"
+set feat_files(101) "<full path redacted>/fMRIPrep/first_level/sub-11068.feat"
 
 # 4D AVW data or FEAT directory (102)
-set feat_files(102) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-11077.feat"
+set feat_files(102) "<full path redacted>/fMRIPrep/first_level/sub-11077.feat"
 
 # 4D AVW data or FEAT directory (103)
-set feat_files(103) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-11088.feat"
+set feat_files(103) "<full path redacted>/fMRIPrep/first_level/sub-11088.feat"
 
 # 4D AVW data or FEAT directory (104)
-set feat_files(104) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-11090.feat"
+set feat_files(104) "<full path redacted>/fMRIPrep/first_level/sub-11090.feat"
 
 # 4D AVW data or FEAT directory (105)
-set feat_files(105) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-11098.feat"
+set feat_files(105) "<full path redacted>/fMRIPrep/first_level/sub-11098.feat"
 
 # 4D AVW data or FEAT directory (106)
-set feat_files(106) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-11104.feat"
+set feat_files(106) "<full path redacted>/fMRIPrep/first_level/sub-11104.feat"
 
 # 4D AVW data or FEAT directory (107)
-set feat_files(107) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-11105.feat"
+set feat_files(107) "<full path redacted>/fMRIPrep/first_level/sub-11105.feat"
 
 # 4D AVW data or FEAT directory (108)
-set feat_files(108) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-11106.feat"
+set feat_files(108) "<full path redacted>/fMRIPrep/first_level/sub-11106.feat"
 
 # 4D AVW data or FEAT directory (109)
-set feat_files(109) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-11108.feat"
+set feat_files(109) "<full path redacted>/fMRIPrep/first_level/sub-11108.feat"
 
 # 4D AVW data or FEAT directory (110)
-set feat_files(110) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-11112.feat"
+set feat_files(110) "<full path redacted>/fMRIPrep/first_level/sub-11112.feat"
 
 # 4D AVW data or FEAT directory (111)
-set feat_files(111) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-11122.feat"
+set feat_files(111) "<full path redacted>/fMRIPrep/first_level/sub-11122.feat"
 
 # 4D AVW data or FEAT directory (112)
-set feat_files(112) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-11128.feat"
+set feat_files(112) "<full path redacted>/fMRIPrep/first_level/sub-11128.feat"
 
 # 4D AVW data or FEAT directory (113)
-set feat_files(113) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-11131.feat"
+set feat_files(113) "<full path redacted>/fMRIPrep/first_level/sub-11131.feat"
 
 # 4D AVW data or FEAT directory (114)
-set feat_files(114) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-11142.feat"
+set feat_files(114) "<full path redacted>/fMRIPrep/first_level/sub-11142.feat"
 
 # 4D AVW data or FEAT directory (115)
-set feat_files(115) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-11143.feat"
+set feat_files(115) "<full path redacted>/fMRIPrep/first_level/sub-11143.feat"
 
 # 4D AVW data or FEAT directory (116)
-set feat_files(116) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-11149.feat"
+set feat_files(116) "<full path redacted>/fMRIPrep/first_level/sub-11149.feat"
 
 # 4D AVW data or FEAT directory (117)
-set feat_files(117) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-11156.feat"
+set feat_files(117) "<full path redacted>/fMRIPrep/first_level/sub-11156.feat"
 
 # 4D AVW data or FEAT directory (118)
-set feat_files(118) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-50004.feat"
+set feat_files(118) "<full path redacted>/fMRIPrep/first_level/sub-50004.feat"
 
 # 4D AVW data or FEAT directory (119)
-set feat_files(119) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-50006.feat"
+set feat_files(119) "<full path redacted>/fMRIPrep/first_level/sub-50006.feat"
 
 # 4D AVW data or FEAT directory (120)
-set feat_files(120) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-50007.feat"
+set feat_files(120) "<full path redacted>/fMRIPrep/first_level/sub-50007.feat"
 
 # 4D AVW data or FEAT directory (121)
-set feat_files(121) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-50013.feat"
+set feat_files(121) "<full path redacted>/fMRIPrep/first_level/sub-50013.feat"
 
 # 4D AVW data or FEAT directory (122)
-set feat_files(122) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-50014.feat"
+set feat_files(122) "<full path redacted>/fMRIPrep/first_level/sub-50014.feat"
 
 # 4D AVW data or FEAT directory (123)
-set feat_files(123) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-50015.feat"
+set feat_files(123) "<full path redacted>/fMRIPrep/first_level/sub-50015.feat"
 
 # 4D AVW data or FEAT directory (124)
-set feat_files(124) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-50016.feat"
+set feat_files(124) "<full path redacted>/fMRIPrep/first_level/sub-50016.feat"
 
 # 4D AVW data or FEAT directory (125)
-set feat_files(125) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-50020.feat"
+set feat_files(125) "<full path redacted>/fMRIPrep/first_level/sub-50020.feat"
 
 # 4D AVW data or FEAT directory (126)
-set feat_files(126) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-50021.feat"
+set feat_files(126) "<full path redacted>/fMRIPrep/first_level/sub-50021.feat"
 
 # 4D AVW data or FEAT directory (127)
-set feat_files(127) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-50022.feat"
+set feat_files(127) "<full path redacted>/fMRIPrep/first_level/sub-50022.feat"
 
 # 4D AVW data or FEAT directory (128)
-set feat_files(128) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-50023.feat"
+set feat_files(128) "<full path redacted>/fMRIPrep/first_level/sub-50023.feat"
 
 # 4D AVW data or FEAT directory (129)
-set feat_files(129) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-50025.feat"
+set feat_files(129) "<full path redacted>/fMRIPrep/first_level/sub-50025.feat"
 
 # 4D AVW data or FEAT directory (130)
-set feat_files(130) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-50027.feat"
+set feat_files(130) "<full path redacted>/fMRIPrep/first_level/sub-50027.feat"
 
 # 4D AVW data or FEAT directory (131)
-set feat_files(131) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-50029.feat"
+set feat_files(131) "<full path redacted>/fMRIPrep/first_level/sub-50029.feat"
 
 # 4D AVW data or FEAT directory (132)
-set feat_files(132) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-50032.feat"
+set feat_files(132) "<full path redacted>/fMRIPrep/first_level/sub-50032.feat"
 
 # 4D AVW data or FEAT directory (133)
-set feat_files(133) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-50033.feat"
+set feat_files(133) "<full path redacted>/fMRIPrep/first_level/sub-50033.feat"
 
 # 4D AVW data or FEAT directory (134)
-set feat_files(134) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-50034.feat"
+set feat_files(134) "<full path redacted>/fMRIPrep/first_level/sub-50034.feat"
 
 # 4D AVW data or FEAT directory (135)
-set feat_files(135) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-50035.feat"
+set feat_files(135) "<full path redacted>/fMRIPrep/first_level/sub-50035.feat"
 
 # 4D AVW data or FEAT directory (136)
-set feat_files(136) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-50036.feat"
+set feat_files(136) "<full path redacted>/fMRIPrep/first_level/sub-50036.feat"
 
 # 4D AVW data or FEAT directory (137)
-set feat_files(137) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-50038.feat"
+set feat_files(137) "<full path redacted>/fMRIPrep/first_level/sub-50038.feat"
 
 # 4D AVW data or FEAT directory (138)
-set feat_files(138) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-50043.feat"
+set feat_files(138) "<full path redacted>/fMRIPrep/first_level/sub-50043.feat"
 
 # 4D AVW data or FEAT directory (139)
-set feat_files(139) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-50047.feat"
+set feat_files(139) "<full path redacted>/fMRIPrep/first_level/sub-50047.feat"
 
 # 4D AVW data or FEAT directory (140)
-set feat_files(140) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-50048.feat"
+set feat_files(140) "<full path redacted>/fMRIPrep/first_level/sub-50048.feat"
 
 # 4D AVW data or FEAT directory (141)
-set feat_files(141) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-50049.feat"
+set feat_files(141) "<full path redacted>/fMRIPrep/first_level/sub-50049.feat"
 
 # 4D AVW data or FEAT directory (142)
-set feat_files(142) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-50050.feat"
+set feat_files(142) "<full path redacted>/fMRIPrep/first_level/sub-50050.feat"
 
 # 4D AVW data or FEAT directory (143)
-set feat_files(143) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-50051.feat"
+set feat_files(143) "<full path redacted>/fMRIPrep/first_level/sub-50051.feat"
 
 # 4D AVW data or FEAT directory (144)
-set feat_files(144) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-50052.feat"
+set feat_files(144) "<full path redacted>/fMRIPrep/first_level/sub-50052.feat"
 
 # 4D AVW data or FEAT directory (145)
-set feat_files(145) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-50054.feat"
+set feat_files(145) "<full path redacted>/fMRIPrep/first_level/sub-50054.feat"
 
 # 4D AVW data or FEAT directory (146)
-set feat_files(146) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-50055.feat"
+set feat_files(146) "<full path redacted>/fMRIPrep/first_level/sub-50055.feat"
 
 # 4D AVW data or FEAT directory (147)
-set feat_files(147) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-50056.feat"
+set feat_files(147) "<full path redacted>/fMRIPrep/first_level/sub-50056.feat"
 
 # 4D AVW data or FEAT directory (148)
-set feat_files(148) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-50058.feat"
+set feat_files(148) "<full path redacted>/fMRIPrep/first_level/sub-50058.feat"
 
 # 4D AVW data or FEAT directory (149)
-set feat_files(149) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-50064.feat"
+set feat_files(149) "<full path redacted>/fMRIPrep/first_level/sub-50064.feat"
 
 # 4D AVW data or FEAT directory (150)
-set feat_files(150) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-50066.feat"
+set feat_files(150) "<full path redacted>/fMRIPrep/first_level/sub-50066.feat"
 
 # 4D AVW data or FEAT directory (151)
-set feat_files(151) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-50067.feat"
+set feat_files(151) "<full path redacted>/fMRIPrep/first_level/sub-50067.feat"
 
 # 4D AVW data or FEAT directory (152)
-set feat_files(152) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-50069.feat"
+set feat_files(152) "<full path redacted>/fMRIPrep/first_level/sub-50069.feat"
 
 # 4D AVW data or FEAT directory (153)
-set feat_files(153) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-50073.feat"
+set feat_files(153) "<full path redacted>/fMRIPrep/first_level/sub-50073.feat"
 
 # 4D AVW data or FEAT directory (154)
-set feat_files(154) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-50075.feat"
+set feat_files(154) "<full path redacted>/fMRIPrep/first_level/sub-50075.feat"
 
 # 4D AVW data or FEAT directory (155)
-set feat_files(155) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-50076.feat"
+set feat_files(155) "<full path redacted>/fMRIPrep/first_level/sub-50076.feat"
 
 # 4D AVW data or FEAT directory (156)
-set feat_files(156) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-50077.feat"
+set feat_files(156) "<full path redacted>/fMRIPrep/first_level/sub-50077.feat"
 
 # 4D AVW data or FEAT directory (157)
-set feat_files(157) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-50080.feat"
+set feat_files(157) "<full path redacted>/fMRIPrep/first_level/sub-50080.feat"
 
 # 4D AVW data or FEAT directory (158)
-set feat_files(158) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-50081.feat"
+set feat_files(158) "<full path redacted>/fMRIPrep/first_level/sub-50081.feat"
 
 # 4D AVW data or FEAT directory (159)
-set feat_files(159) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-50083.feat"
+set feat_files(159) "<full path redacted>/fMRIPrep/first_level/sub-50083.feat"
 
 # 4D AVW data or FEAT directory (160)
-set feat_files(160) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-50085.feat"
+set feat_files(160) "<full path redacted>/fMRIPrep/first_level/sub-50085.feat"
 
 # 4D AVW data or FEAT directory (161)
-set feat_files(161) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-60001.feat"
+set feat_files(161) "<full path redacted>/fMRIPrep/first_level/sub-60001.feat"
 
 # 4D AVW data or FEAT directory (162)
-set feat_files(162) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-60005.feat"
+set feat_files(162) "<full path redacted>/fMRIPrep/first_level/sub-60005.feat"
 
 # 4D AVW data or FEAT directory (163)
-set feat_files(163) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-60006.feat"
+set feat_files(163) "<full path redacted>/fMRIPrep/first_level/sub-60006.feat"
 
 # 4D AVW data or FEAT directory (164)
-set feat_files(164) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-60008.feat"
+set feat_files(164) "<full path redacted>/fMRIPrep/first_level/sub-60008.feat"
 
 # 4D AVW data or FEAT directory (165)
-set feat_files(165) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-60010.feat"
+set feat_files(165) "<full path redacted>/fMRIPrep/first_level/sub-60010.feat"
 
 # 4D AVW data or FEAT directory (166)
-set feat_files(166) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-60011.feat"
+set feat_files(166) "<full path redacted>/fMRIPrep/first_level/sub-60011.feat"
 
 # 4D AVW data or FEAT directory (167)
-set feat_files(167) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-60012.feat"
+set feat_files(167) "<full path redacted>/fMRIPrep/first_level/sub-60012.feat"
 
 # 4D AVW data or FEAT directory (168)
-set feat_files(168) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-60014.feat"
+set feat_files(168) "<full path redacted>/fMRIPrep/first_level/sub-60014.feat"
 
 # 4D AVW data or FEAT directory (169)
-set feat_files(169) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-60015.feat"
+set feat_files(169) "<full path redacted>/fMRIPrep/first_level/sub-60015.feat"
 
 # 4D AVW data or FEAT directory (170)
-set feat_files(170) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-60016.feat"
+set feat_files(170) "<full path redacted>/fMRIPrep/first_level/sub-60016.feat"
 
 # 4D AVW data or FEAT directory (171)
-set feat_files(171) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-60017.feat"
+set feat_files(171) "<full path redacted>/fMRIPrep/first_level/sub-60017.feat"
 
 # 4D AVW data or FEAT directory (172)
-set feat_files(172) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-60020.feat"
+set feat_files(172) "<full path redacted>/fMRIPrep/first_level/sub-60020.feat"
 
 # 4D AVW data or FEAT directory (173)
-set feat_files(173) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-60021.feat"
+set feat_files(173) "<full path redacted>/fMRIPrep/first_level/sub-60021.feat"
 
 # 4D AVW data or FEAT directory (174)
-set feat_files(174) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-60022.feat"
+set feat_files(174) "<full path redacted>/fMRIPrep/first_level/sub-60022.feat"
 
 # 4D AVW data or FEAT directory (175)
-set feat_files(175) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-60028.feat"
+set feat_files(175) "<full path redacted>/fMRIPrep/first_level/sub-60028.feat"
 
 # 4D AVW data or FEAT directory (176)
-set feat_files(176) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-60030.feat"
+set feat_files(176) "<full path redacted>/fMRIPrep/first_level/sub-60030.feat"
 
 # 4D AVW data or FEAT directory (177)
-set feat_files(177) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-60033.feat"
+set feat_files(177) "<full path redacted>/fMRIPrep/first_level/sub-60033.feat"
 
 # 4D AVW data or FEAT directory (178)
-set feat_files(178) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-60036.feat"
+set feat_files(178) "<full path redacted>/fMRIPrep/first_level/sub-60036.feat"
 
 # 4D AVW data or FEAT directory (179)
-set feat_files(179) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-60037.feat"
+set feat_files(179) "<full path redacted>/fMRIPrep/first_level/sub-60037.feat"
 
 # 4D AVW data or FEAT directory (180)
-set feat_files(180) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-60038.feat"
+set feat_files(180) "<full path redacted>/fMRIPrep/first_level/sub-60038.feat"
 
 # 4D AVW data or FEAT directory (181)
-set feat_files(181) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-60042.feat"
+set feat_files(181) "<full path redacted>/fMRIPrep/first_level/sub-60042.feat"
 
 # 4D AVW data or FEAT directory (182)
-set feat_files(182) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-60043.feat"
+set feat_files(182) "<full path redacted>/fMRIPrep/first_level/sub-60043.feat"
 
 # 4D AVW data or FEAT directory (183)
-set feat_files(183) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-60045.feat"
+set feat_files(183) "<full path redacted>/fMRIPrep/first_level/sub-60045.feat"
 
 # 4D AVW data or FEAT directory (184)
-set feat_files(184) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-60046.feat"
+set feat_files(184) "<full path redacted>/fMRIPrep/first_level/sub-60046.feat"
 
 # 4D AVW data or FEAT directory (185)
-set feat_files(185) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-60048.feat"
+set feat_files(185) "<full path redacted>/fMRIPrep/first_level/sub-60048.feat"
 
 # 4D AVW data or FEAT directory (186)
-set feat_files(186) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-60049.feat"
+set feat_files(186) "<full path redacted>/fMRIPrep/first_level/sub-60049.feat"
 
 # 4D AVW data or FEAT directory (187)
-set feat_files(187) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-60051.feat"
+set feat_files(187) "<full path redacted>/fMRIPrep/first_level/sub-60051.feat"
 
 # 4D AVW data or FEAT directory (188)
-set feat_files(188) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-60052.feat"
+set feat_files(188) "<full path redacted>/fMRIPrep/first_level/sub-60052.feat"
 
 # 4D AVW data or FEAT directory (189)
-set feat_files(189) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-60053.feat"
+set feat_files(189) "<full path redacted>/fMRIPrep/first_level/sub-60053.feat"
 
 # 4D AVW data or FEAT directory (190)
-set feat_files(190) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-60055.feat"
+set feat_files(190) "<full path redacted>/fMRIPrep/first_level/sub-60055.feat"
 
 # 4D AVW data or FEAT directory (191)
-set feat_files(191) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-60056.feat"
+set feat_files(191) "<full path redacted>/fMRIPrep/first_level/sub-60056.feat"
 
 # 4D AVW data or FEAT directory (192)
-set feat_files(192) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-60057.feat"
+set feat_files(192) "<full path redacted>/fMRIPrep/first_level/sub-60057.feat"
 
 # 4D AVW data or FEAT directory (193)
-set feat_files(193) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-60060.feat"
+set feat_files(193) "<full path redacted>/fMRIPrep/first_level/sub-60060.feat"
 
 # 4D AVW data or FEAT directory (194)
-set feat_files(194) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-60062.feat"
+set feat_files(194) "<full path redacted>/fMRIPrep/first_level/sub-60062.feat"
 
 # 4D AVW data or FEAT directory (195)
-set feat_files(195) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-60065.feat"
+set feat_files(195) "<full path redacted>/fMRIPrep/first_level/sub-60065.feat"
 
 # 4D AVW data or FEAT directory (196)
-set feat_files(196) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-60066.feat"
+set feat_files(196) "<full path redacted>/fMRIPrep/first_level/sub-60066.feat"
 
 # 4D AVW data or FEAT directory (197)
-set feat_files(197) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-60068.feat"
+set feat_files(197) "<full path redacted>/fMRIPrep/first_level/sub-60068.feat"
 
 # 4D AVW data or FEAT directory (198)
-set feat_files(198) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-60070.feat"
+set feat_files(198) "<full path redacted>/fMRIPrep/first_level/sub-60070.feat"
 
 # 4D AVW data or FEAT directory (199)
-set feat_files(199) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-60072.feat"
+set feat_files(199) "<full path redacted>/fMRIPrep/first_level/sub-60072.feat"
 
 # 4D AVW data or FEAT directory (200)
-set feat_files(200) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-60073.feat"
+set feat_files(200) "<full path redacted>/fMRIPrep/first_level/sub-60073.feat"
 
 # 4D AVW data or FEAT directory (201)
-set feat_files(201) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-60074.feat"
+set feat_files(201) "<full path redacted>/fMRIPrep/first_level/sub-60074.feat"
 
 # 4D AVW data or FEAT directory (202)
-set feat_files(202) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-60076.feat"
+set feat_files(202) "<full path redacted>/fMRIPrep/first_level/sub-60076.feat"
 
 # 4D AVW data or FEAT directory (203)
-set feat_files(203) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-60077.feat"
+set feat_files(203) "<full path redacted>/fMRIPrep/first_level/sub-60077.feat"
 
 # 4D AVW data or FEAT directory (204)
-set feat_files(204) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-60078.feat"
+set feat_files(204) "<full path redacted>/fMRIPrep/first_level/sub-60078.feat"
 
 # 4D AVW data or FEAT directory (205)
-set feat_files(205) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-60079.feat"
+set feat_files(205) "<full path redacted>/fMRIPrep/first_level/sub-60079.feat"
 
 # 4D AVW data or FEAT directory (206)
-set feat_files(206) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-60080.feat"
+set feat_files(206) "<full path redacted>/fMRIPrep/first_level/sub-60080.feat"
 
 # 4D AVW data or FEAT directory (207)
-set feat_files(207) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-60084.feat"
+set feat_files(207) "<full path redacted>/fMRIPrep/first_level/sub-60084.feat"
 
 # 4D AVW data or FEAT directory (208)
-set feat_files(208) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-60087.feat"
+set feat_files(208) "<full path redacted>/fMRIPrep/first_level/sub-60087.feat"
 
 # 4D AVW data or FEAT directory (209)
-set feat_files(209) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-60089.feat"
+set feat_files(209) "<full path redacted>/fMRIPrep/first_level/sub-60089.feat"
 
 # 4D AVW data or FEAT directory (210)
-set feat_files(210) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-70001.feat"
+set feat_files(210) "<full path redacted>/fMRIPrep/first_level/sub-70001.feat"
 
 # 4D AVW data or FEAT directory (211)
-set feat_files(211) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-70004.feat"
+set feat_files(211) "<full path redacted>/fMRIPrep/first_level/sub-70004.feat"
 
 # 4D AVW data or FEAT directory (212)
-set feat_files(212) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-70007.feat"
+set feat_files(212) "<full path redacted>/fMRIPrep/first_level/sub-70007.feat"
 
 # 4D AVW data or FEAT directory (213)
-set feat_files(213) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-70015.feat"
+set feat_files(213) "<full path redacted>/fMRIPrep/first_level/sub-70015.feat"
 
 # 4D AVW data or FEAT directory (214)
-set feat_files(214) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-70017.feat"
+set feat_files(214) "<full path redacted>/fMRIPrep/first_level/sub-70017.feat"
 
 # 4D AVW data or FEAT directory (215)
-set feat_files(215) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-70020.feat"
+set feat_files(215) "<full path redacted>/fMRIPrep/first_level/sub-70020.feat"
 
 # 4D AVW data or FEAT directory (216)
-set feat_files(216) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-70021.feat"
+set feat_files(216) "<full path redacted>/fMRIPrep/first_level/sub-70021.feat"
 
 # 4D AVW data or FEAT directory (217)
-set feat_files(217) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-70022.feat"
+set feat_files(217) "<full path redacted>/fMRIPrep/first_level/sub-70022.feat"
 
 # 4D AVW data or FEAT directory (218)
-set feat_files(218) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-70026.feat"
+set feat_files(218) "<full path redacted>/fMRIPrep/first_level/sub-70026.feat"
 
 # 4D AVW data or FEAT directory (219)
-set feat_files(219) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-70029.feat"
+set feat_files(219) "<full path redacted>/fMRIPrep/first_level/sub-70029.feat"
 
 # 4D AVW data or FEAT directory (220)
-set feat_files(220) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-70033.feat"
+set feat_files(220) "<full path redacted>/fMRIPrep/first_level/sub-70033.feat"
 
 # 4D AVW data or FEAT directory (221)
-set feat_files(221) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-70034.feat"
+set feat_files(221) "<full path redacted>/fMRIPrep/first_level/sub-70034.feat"
 
 # 4D AVW data or FEAT directory (222)
-set feat_files(222) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-70037.feat"
+set feat_files(222) "<full path redacted>/fMRIPrep/first_level/sub-70037.feat"
 
 # 4D AVW data or FEAT directory (223)
-set feat_files(223) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-70040.feat"
+set feat_files(223) "<full path redacted>/fMRIPrep/first_level/sub-70040.feat"
 
 # 4D AVW data or FEAT directory (224)
-set feat_files(224) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-70046.feat"
+set feat_files(224) "<full path redacted>/fMRIPrep/first_level/sub-70046.feat"
 
 # 4D AVW data or FEAT directory (225)
-set feat_files(225) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-70048.feat"
+set feat_files(225) "<full path redacted>/fMRIPrep/first_level/sub-70048.feat"
 
 # 4D AVW data or FEAT directory (226)
-set feat_files(226) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-70049.feat"
+set feat_files(226) "<full path redacted>/fMRIPrep/first_level/sub-70049.feat"
 
 # 4D AVW data or FEAT directory (227)
-set feat_files(227) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-70051.feat"
+set feat_files(227) "<full path redacted>/fMRIPrep/first_level/sub-70051.feat"
 
 # 4D AVW data or FEAT directory (228)
-set feat_files(228) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-70052.feat"
+set feat_files(228) "<full path redacted>/fMRIPrep/first_level/sub-70052.feat"
 
 # 4D AVW data or FEAT directory (229)
-set feat_files(229) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-70055.feat"
+set feat_files(229) "<full path redacted>/fMRIPrep/first_level/sub-70055.feat"
 
 # 4D AVW data or FEAT directory (230)
-set feat_files(230) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-70057.feat"
+set feat_files(230) "<full path redacted>/fMRIPrep/first_level/sub-70057.feat"
 
 # 4D AVW data or FEAT directory (231)
-set feat_files(231) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-70058.feat"
+set feat_files(231) "<full path redacted>/fMRIPrep/first_level/sub-70058.feat"
 
 # 4D AVW data or FEAT directory (232)
-set feat_files(232) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-70060.feat"
+set feat_files(232) "<full path redacted>/fMRIPrep/first_level/sub-70060.feat"
 
 # 4D AVW data or FEAT directory (233)
-set feat_files(233) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-70061.feat"
+set feat_files(233) "<full path redacted>/fMRIPrep/first_level/sub-70061.feat"
 
 # 4D AVW data or FEAT directory (234)
-set feat_files(234) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-70065.feat"
+set feat_files(234) "<full path redacted>/fMRIPrep/first_level/sub-70065.feat"
 
 # 4D AVW data or FEAT directory (235)
-set feat_files(235) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-70068.feat"
+set feat_files(235) "<full path redacted>/fMRIPrep/first_level/sub-70068.feat"
 
 # 4D AVW data or FEAT directory (236)
-set feat_files(236) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-70069.feat"
+set feat_files(236) "<full path redacted>/fMRIPrep/first_level/sub-70069.feat"
 
 # 4D AVW data or FEAT directory (237)
-set feat_files(237) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-70070.feat"
+set feat_files(237) "<full path redacted>/fMRIPrep/first_level/sub-70070.feat"
 
 # 4D AVW data or FEAT directory (238)
-set feat_files(238) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-70072.feat"
+set feat_files(238) "<full path redacted>/fMRIPrep/first_level/sub-70072.feat"
 
 # 4D AVW data or FEAT directory (239)
-set feat_files(239) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-70073.feat"
+set feat_files(239) "<full path redacted>/fMRIPrep/first_level/sub-70073.feat"
 
 # 4D AVW data or FEAT directory (240)
-set feat_files(240) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-70074.feat"
+set feat_files(240) "<full path redacted>/fMRIPrep/first_level/sub-70074.feat"
 
 # 4D AVW data or FEAT directory (241)
-set feat_files(241) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-70075.feat"
+set feat_files(241) "<full path redacted>/fMRIPrep/first_level/sub-70075.feat"
 
 # 4D AVW data or FEAT directory (242)
-set feat_files(242) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-70076.feat"
+set feat_files(242) "<full path redacted>/fMRIPrep/first_level/sub-70076.feat"
 
 # 4D AVW data or FEAT directory (243)
-set feat_files(243) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-70077.feat"
+set feat_files(243) "<full path redacted>/fMRIPrep/first_level/sub-70077.feat"
 
 # 4D AVW data or FEAT directory (244)
-set feat_files(244) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-70079.feat"
+set feat_files(244) "<full path redacted>/fMRIPrep/first_level/sub-70079.feat"
 
 # 4D AVW data or FEAT directory (245)
-set feat_files(245) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-70080.feat"
+set feat_files(245) "<full path redacted>/fMRIPrep/first_level/sub-70080.feat"
 
 # 4D AVW data or FEAT directory (246)
-set feat_files(246) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-70081.feat"
+set feat_files(246) "<full path redacted>/fMRIPrep/first_level/sub-70081.feat"
 
 # 4D AVW data or FEAT directory (247)
-set feat_files(247) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-70083.feat"
+set feat_files(247) "<full path redacted>/fMRIPrep/first_level/sub-70083.feat"
 
 # 4D AVW data or FEAT directory (248)
-set feat_files(248) "/mnt/lustre/users/psych/ns605/Analysis/fMRIPrep/first_level/sub-70086.feat"
+set feat_files(248) "<full path redacted>/fMRIPrep/first_level/sub-70086.feat"
 
 # Add confound EVs text file
 set fmri(confoundevs) 0
