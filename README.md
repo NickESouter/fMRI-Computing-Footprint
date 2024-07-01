@@ -100,9 +100,17 @@ This shell script is used to perform higher-level statistical analysis on data p
 
 ## fMRIPrep
 
+fMRIPrep was run twice for this paper, once in the default output space (MNI152NLin2009cAsym) with native resolution, and once in MNI152NLin6Asym with a resolution of 2mm (for supplementary comparison). The scripts uploaded here were used for the former, but any case where deviations were needed in scripts to process 2mm data are specified. Otherwise, the scripts required for these two versions were identical.
+
 ### fMRIPrep_preproc.sh
 
 This shell script performs preprocessing on fMRIPrep on raw data, for each subject. fMRIPrep is run in a Singularity container. Set up to run on our HPC cluster.
+
+The 2mm version was the same, with this additional fMRIPrep flag in the command line:
+
+```
+--output-spaces MNI152NLin6Asym:res-2
+```
 
 ### fMRIPrep_Confound_pull.py
 
@@ -111,6 +119,8 @@ fMRIPrep preprocessing will have generated a file containing motion confounds. F
 ### fMRIPrep_Smoothing.sh
 
 fMRIPrep does not contain a smoothing function. As such, we need to run smoothing outside of fMRIPrep. For this, we use the 3dBlurInMask function from AFNI. We also perform estimates of mean pre- and post-smoothing smoothness using AFNI 3dFWHMx (although post-smoothing estimates are not used in analysis). Ideally, smoothing would be carbon tracked such that it could be added to our existing carbon estimate for preprocessing fMRIPrep data. However, AFNI is not currently set up to run on our HPC cluster, meaning this was not possible.
+
+The version of this script for 2mm was the same, with the exception that the both instaces of 'MNI152NLin2009cAsym' are replaced with 'MNI152NLin6Asym:res-2' when identifying the input data.
 
 ### fsf_templates
 
@@ -164,7 +174,7 @@ For example:
 
 qacct -j 4043726 | python3 Calc_carbon.py
 
-This must be done manually for each job. If, for example, job 4043726 corresponded to preprocessing in SPM for all 257 subjects, this code would grab relevant computing metrics (including wallclock, CPU time, max memory usage) for each subject (task), which would then be saved in a job-specific dictionary in a Job_JSONs folder, in the current working directory. 
+This must be done manually for each job. If, for example, job 4043726 corresponded to preprocessing in SPM for all 248 subjects, this code would grab relevant computing metrics (including wallclock, CPU time, max memory usage) for each subject (task), which would then be saved in a job-specific dictionary in a Job_JSONs folder, in the current working directory. 
 
 This script was used for computing at the University of Sussex in early 2024. If using in another context, users will need to update global variables at teh top of the script, including g_per_kWh (this is average carbon intensity, which will vary by country, region, and year), and pue (power use effectiveness, which will be specific to to the computing architecture in use). See the paper for a full description of the methodology used to estimate carbon emissions.
 
@@ -179,6 +189,19 @@ This Python script is used to extract mean data smoothness metrics for each subj
 ### Featquery_extract.py
 
 This Python script extracts the mean t-statistics in each ROI for each subject for a given package. The 'package' variable at the top of this script should be appropriately updated to be either 'FSL', 'SPM', or 'fMRIPrep'. Specifically, this script finds Featquery reports generated during the above package-specific scripts, and pulls out the relevant values. All are placed into a single file corresponding to a given package.
+
+## Group_processing
+
+These scripts were used to set up input for figures or to report information about group-level output files.
+
+### Dice_coeff.py
+
+This script generates metrics used in Supplementary Table 5, including the the size of thresholded group-level output for each package, the dice coefficient with the relevant contrast for each other package, and the percentage of non-zero voxels which fall outside of the MNI brain mask template.
+
+### Group_merge.sh
+
+This script was used to merge together thresholded group-level files for the creation of Figure 3. The same function is applied to both contrasts for each combination of two packages.
+
 
 [1]: https://openneuro.org/datasets/ds000030/versions/1.0.0
 [2]: https://osf.io/cdq6y/
