@@ -1,13 +1,13 @@
 %%
 
 % Define the path for the first-level stats results.
-stats_path = '/mnt/lustre/users/psych/ns605/Analysis/SPM/First_level/'
+stats_path = '<full path redacted>/SPM/First_level/'
 
 % CONTRAST 1 - GO OVER SUCCESSFUL STOP
 
 % Factorial design specification
 
-matlabbatch{1}.spm.stats.factorial_design.dir = {'/mnt/lustre/users/psych/ns605/Analysis/SPM/Higher_level/Group_Go'};
+matlabbatch{1}.spm.stats.factorial_design.dir = {'<full path redacted>/SPM/Higher_level/Group_Go'};
 matlabbatch{1}.spm.stats.factorial_design.des.t1.scans = {
                                                           fullfile(stats_path, 'sub-10159/con_0001.nii,1')
                                                           fullfile(stats_path, 'sub-10171/con_0001.nii,1')
@@ -269,13 +269,13 @@ matlabbatch{1}.spm.stats.factorial_design.globalm.glonorm = 1;
 
 % Model estimation
 
-matlabbatch{2}.spm.stats.fmri_est.spmmat = {'/mnt/lustre/users/psych/ns605/Analysis/SPM/Higher_level/Group_Go/SPM.mat'};
+matlabbatch{2}.spm.stats.fmri_est.spmmat = {'<full path redacted>/SPM/Higher_level/Group_Go/SPM.mat'};
 matlabbatch{2}.spm.stats.fmri_est.write_residuals = 0;
 matlabbatch{2}.spm.stats.fmri_est.method.Classical = 1;
 
 % Contrast Manager
 
-matlabbatch{3}.spm.stats.con.spmmat = {'/mnt/lustre/users/psych/ns605/Analysis/SPM/Higher_level/Group_Go/SPM.mat'};
+matlabbatch{3}.spm.stats.con.spmmat = {'<full path redacted>/SPM/Higher_level/Group_Go/SPM.mat'};
 matlabbatch{3}.spm.stats.con.consess{1}.tcon.name = 'go_stop_success';
 matlabbatch{3}.spm.stats.con.consess{1}.tcon.weights = 1;
 matlabbatch{3}.spm.stats.con.consess{1}.tcon.sessrep = 'none';
@@ -283,7 +283,7 @@ matlabbatch{3}.spm.stats.con.delete = 0;
 
 % Results Report
 
-matlabbatch{4}.spm.stats.results.spmmat = {'/mnt/lustre/users/psych/ns605/Analysis/SPM/Higher_level/Group_Go/SPM.mat'};
+matlabbatch{4}.spm.stats.results.spmmat = {'<full path redacted>/SPM/Higher_level/Group_Go/SPM.mat'};
 matlabbatch{4}.spm.stats.results.conspec.titlestr = '';
 matlabbatch{4}.spm.stats.results.conspec.contrasts = 1;
 matlabbatch{4}.spm.stats.results.conspec.threshdesc = 'none';
@@ -299,7 +299,7 @@ matlabbatch{4}.spm.stats.results.export{2}.tspm.basename = 'thr';
 
 % Factorial design specification
 
-matlabbatch{5}.spm.stats.factorial_design.dir = {'/mnt/lustre/users/psych/ns605/Analysis/SPM/Higher_level/Group_Stop'};
+matlabbatch{5}.spm.stats.factorial_design.dir = {'<full path redacted>/SPM/Higher_level/Group_Stop'};
 matlabbatch{5}.spm.stats.factorial_design.des.t1.scans = {
                                                           fullfile(stats_path, 'sub-10159/con_0002.nii,1')
                                                           fullfile(stats_path, 'sub-10171/con_0002.nii,1')
@@ -561,13 +561,13 @@ matlabbatch{5}.spm.stats.factorial_design.globalm.glonorm = 1;
 
 % Model estimation
 
-matlabbatch{6}.spm.stats.fmri_est.spmmat = {'/mnt/lustre/users/psych/ns605/Analysis/SPM/Higher_level/Group_Stop/SPM.mat'};
+matlabbatch{6}.spm.stats.fmri_est.spmmat = {'<full path redacted>/SPM/Higher_level/Group_Stop/SPM.mat'};
 matlabbatch{6}.spm.stats.fmri_est.write_residuals = 0;
 matlabbatch{6}.spm.stats.fmri_est.method.Classical = 1;
 
 % Contrast Manager
 
-matlabbatch{7}.spm.stats.con.spmmat = {'/mnt/lustre/users/psych/ns605/Analysis/SPM/Higher_level/Group_Stop/SPM.mat'};
+matlabbatch{7}.spm.stats.con.spmmat = {'<full path redacted>/SPM/Higher_level/Group_Stop/SPM.mat'};
 matlabbatch{7}.spm.stats.con.consess{1}.tcon.name = 'stop_success_go';
 matlabbatch{7}.spm.stats.con.consess{1}.tcon.weights = 1;
 matlabbatch{7}.spm.stats.con.consess{1}.tcon.sessrep = 'none';
@@ -575,7 +575,7 @@ matlabbatch{7}.spm.stats.con.delete = 0;
 
 % Results Report
 
-matlabbatch{8}.spm.stats.results.spmmat = {'/mnt/lustre/users/psych/ns605/Analysis/SPM/Higher_level/Group_Stop/SPM.mat'};
+matlabbatch{8}.spm.stats.results.spmmat = {'<full path redacted>/SPM/Higher_level/Group_Stop/SPM.mat'};
 matlabbatch{8}.spm.stats.results.conspec.titlestr = '';
 matlabbatch{8}.spm.stats.results.conspec.contrasts = 1;
 matlabbatch{8}.spm.stats.results.conspec.threshdesc = 'none';
