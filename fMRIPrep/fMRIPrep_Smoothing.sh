@@ -36,8 +36,8 @@ do
         find . -maxdepth 1 -name '*smoothness*' -type f -delete
 
 	#Points to the input data and mask file for smoothing.
-        smooth_input="$fmriprep_path/Preprocessing/derivatives/${SUBJECTID}/func/${SUBJECTID}_task-stopsignal_space-MNI152NLin6Asym_res-2_desc-preproc_bold.nii.gz"
-        smooth_mask="$fmriprep_path/Preprocessing/derivatives/${SUBJECTID}/func/${SUBJECTID}_task-stopsignal_space-MNI152NLin6Asym_res-2_desc-brain_mask.nii.gz"
+        smooth_input="$fmriprep_path/Preprocessing/derivatives/${SUBJECTID}/func/${SUBJECTID}_task-stopsignal_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz"
+        smooth_mask="$fmriprep_path/Preprocessing/derivatives/${SUBJECTID}/func/${SUBJECTID}_task-stopsignal_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz"
 
         #Smoothing starts here, using AFNI. Smoothing is run with a 5mm kernel, confined the to the 'mask' which effectively
         #performs brain extraction on the bold data during smoothing.
