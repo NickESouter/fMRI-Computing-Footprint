@@ -13,7 +13,7 @@
 #$ -l 'h=!node001&!node072&!node017&!node018&!node019&!node041&!node063&!node065&!node066&!node067&!node068&!node069&!node070&!node071&!node073&!node074&!node075&!node076&!node077&!node078&!node079&!node080&!node081'
 
 #This sets SGE_TASK_ID!, the number of subjects sent for preprocessing in this job (each is a seperate task).
-#$ -t 1-257
+#$ -t 1-248
 
 #Sets the job class for HPC cluster.
 #$ -jc test.short
@@ -48,7 +48,7 @@ for roi in "${!ROIs[@]}"; do
 	tstat=${ROIs[$roi]}
 			
 	#Runs Featquery on the respective ROI for this subject.
-	featquery 1 ${outdir}/${subject}/ 1 stats/tstat$tstat featquery_$roi <full path redacted>/ROIs/${roi}_ROI.nii.gz
+	featquery 1 ${outdir}/${subject}/ 1 stats/tstat$tstat featquery_$roi <full path redacted>/ROIs/fMRIPrep_space/${roi}_ANTs.nii.gz
 
 done
 
