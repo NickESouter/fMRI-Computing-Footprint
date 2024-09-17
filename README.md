@@ -202,6 +202,10 @@ This script generates metrics used in Supplementary Table 5, including the the s
 
 This script was used to merge together thresholded group-level files for the creation of Figure 3. The same function is applied to both contrasts for each combination of two packages.
 
+### Group_size.py
+
+This script was used to calculate the size of output files generated during group-level fMRI statistical analysis, for each package.
+
 
 [1]: https://openneuro.org/datasets/ds000030/versions/1.0.0
 [2]: https://osf.io/cdq6y/
