@@ -150,6 +150,12 @@ This Python script measures the total size of files generated throughout preproc
 
 This script script initates FSL Featquery reigon of interest (ROI) analysis on data preprocessed in fMRIPrep, following first-level analysis. Performed for each subject for each of our 4 ROIs. Set up to run on our HPC cluster.
 
+Note that prior to running Featquery on fMRIPrep data, it was necessary to transform all ROI files to the native resolution of the input data and the standard output space generated in fMRIPrep by default (MNI152NLin2009cAsym). This was done using ANTs:
+
+```
+antsApplyTransforms -d 3 -i <ROI input> -r <reference file> -o <ROI output> -t tpl-MNI152NLin2009cAsym_from-MNI152NLin6Asym_mode-image_xfm.h5  -n NearestNeighbor --float
+```
+
 ### Group_fsf
 
 This folder contains a single FSF file used to run group-level analysis in FSL FEAT. We only need one of these files, so the process was not automated as for first-level analysis.
